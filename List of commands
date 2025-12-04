@@ -1,0 +1,11 @@
+heroku login
+
+pip install gunicorn
+pip freeze requirements.txt
+Procfile
+web:gunicorn app:app
+
+
+To activate environment (in terminal):
+./env/Scripts/activate.ps1
+
